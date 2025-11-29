@@ -5,9 +5,7 @@ import { useLanguage } from "../contexts/LanguageContext";
 import { translations } from "../translations";
 import Navigation, { LogoImage } from "../components/Navigation";
 import Footer from "../components/Footer";
-
-const aboutImage =
-  "https://static.wixstatic.com/media/70abc5_41884a0ded3d456b88a7d3d59b3a6223~mv2.jpg/v1/fill/w_334,h_770,al_c,q_80,enc_avif,quality_auto/70abc5_41884a0ded3d456b88a7d3d59b3a6223~mv2.jpg";
+import { img0033 } from "@/public/assets";
 
 export default function About() {
   const { language } = useLanguage();
@@ -25,7 +23,7 @@ export default function About() {
             <div className="relative w-full h-full min-h-[500px] md:min-h-[724px]">
               <div className="relative w-full h-full rounded-lg overflow-hidden shadow-2xl">
                 <Image
-                  src={LogoImage}
+                  src={img0033}
                   alt="Al Andalus Pest Control"
                   fill
                   className="object-contain object-center"

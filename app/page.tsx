@@ -7,9 +7,71 @@ import { translations } from "./translations";
 import Navigation from "./components/Navigation";
 import Footer from "./components/Footer";
 import Accordion from "./components/Accordion";
+import {
+  logo,
+  img0003,
+  img0004,
+  img0005,
+  img0006,
+  img0007,
+  img0008,
+  img0009,
+  img0010,
+  img0011,
+  img0012,
+  img0013,
+  img0014,
+  img0015,
+  img0016,
+  img0017,
+  img0018,
+  img0019,
+  img0020,
+  img0021,
+  img0022,
+  img0023,
+  img0024,
+  img0025,
+  img0026,
+  img0027,
+  img0028,
+  img0029,
+  img0030,
+  img0031,
+  img0032,
+  img0033,
+  img0034,
+  img0035,
+  img0036,
+  img0037,
+  img0038,
+  img0039,
+  img0040,
+  img0041,
+  img0042,
+  img0043,
+  img0044,
+  img0045,
+  img0046,
+  img0047,
+  img0048,
+  img0049,
+  img0050,
+  img0051,
+  img0052,
+  img0053,
+  img0054,
+  img0055,
+  img0056,
+  img0057,
+  img0058,
+  img0060,
+  img0061,
+  img0062,
+  img0063,
+} from "../public/assets";
 
-const logoImage =
-  "https://static.wixstatic.com/media/70abc5_9cf6571b6fda41539f2e806e793213e0~mv2.jpeg/v1/fill/w_264,h_216,al_c,lg_1,q_80,enc_avif,quality_auto/70abc5_9cf6571b6fda41539f2e806e793213e0~mv2.jpeg";
+const logoImage = logo;
 
 export default function Home() {
   const { language } = useLanguage();
@@ -144,7 +206,7 @@ export default function Home() {
               <div className="relative">
                 <div className="absolute -inset-4 bg-[#2a347c] rounded-3xl blur-2xl opacity-20 animate-pulse"></div>
                 <Image
-                  src={logoImage}
+                  src={img0022}
                   alt="Pest Control Service"
                   width={500}
                   height={415}
@@ -153,13 +215,39 @@ export default function Home() {
               </div>
             </div>
           </div>
+
+          {/* Hero Section Images Gallery */}
+          <div className="grid grid-cols-3 md:grid-cols-6 gap-4 mt-12">
+            {[
+              img0011,
+              img0012,
+              img0013,
+              img0014,
+              img0015,
+              img0016,
+              img0017,
+            ].map((img, index) => (
+              <div
+                key={index}
+                className="relative overflow-hidden rounded-xl shadow-lg hover:shadow-2xl transition-all transform hover:-translate-y-2"
+              >
+                <Image
+                  src={img}
+                  alt={`Pest Control Service ${index + 1}`}
+                  width={200}
+                  height={200}
+                  className="w-full h-full object-cover"
+                />
+              </div>
+            ))}
+          </div>
         </div>
       </section>
 
       {/* Statistics Section */}
       <section className="py-16 px-4 bg-gradient-to-r from-[#2a347c] to-[#1a2552] text-white">
         <div className="container mx-auto max-w-[1250px]">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mb-12">
             <div className="text-center">
               <div className="text-4xl md:text-5xl font-bold mb-2">1000+</div>
               <div className="text-lg opacity-90">
@@ -184,6 +272,32 @@ export default function Home() {
                 {language === "en" ? "Years Experience" : "سنة خبرة"}
               </div>
             </div>
+          </div>
+
+          {/* Statistics Section Images Gallery */}
+          <div className="grid grid-cols-3 md:grid-cols-7 gap-4">
+            {[
+              img0018,
+              img0019,
+              img0020,
+              img0021,
+              img0023,
+              img0024,
+              img0025,
+            ].map((img, index) => (
+              <div
+                key={index}
+                className="relative overflow-hidden rounded-xl shadow-lg hover:shadow-2xl transition-all transform hover:-translate-y-2 opacity-80 hover:opacity-100"
+              >
+                <Image
+                  src={img}
+                  alt={`Pest Control Service ${index + 1}`}
+                  width={150}
+                  height={150}
+                  className="w-full h-full object-cover"
+                />
+              </div>
+            ))}
           </div>
         </div>
       </section>
@@ -366,7 +480,7 @@ export default function Home() {
             <p className="text-lg text-gray-700 text-center mb-8 max-w-3xl mx-auto">
               {t.alAndalusIntro.serviceAreas.description}
             </p>
-            <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-8 gap-4">
+            <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-8 gap-4 mb-8">
               {[
                 { name: language === "en" ? "Dubai" : "دبي", emoji: "🏙️" },
                 {
@@ -403,6 +517,32 @@ export default function Home() {
                   <div className="font-semibold text-[#2a347c] text-sm">
                     {location.name}
                   </div>
+                </div>
+              ))}
+            </div>
+
+            {/* Al Andalus Intro Section Images Gallery */}
+            <div className="grid grid-cols-3 md:grid-cols-7 gap-4">
+              {[
+                img0026,
+                img0027,
+                img0028,
+                img0029,
+                img0030,
+                img0031,
+                img0032,
+              ].map((img, index) => (
+                <div
+                  key={index}
+                  className="relative overflow-hidden rounded-xl shadow-lg hover:shadow-2xl transition-all transform hover:-translate-y-2"
+                >
+                  <Image
+                    src={img}
+                    alt={`Pest Control Service ${index + 1}`}
+                    width={150}
+                    height={150}
+                    className="w-full h-full object-cover"
+                  />
                 </div>
               ))}
             </div>
@@ -509,7 +649,7 @@ export default function Home() {
                 ? "Targeted solutions for specific pest problems"
                 : "حلول مستهدفة لمشاكل الحشرات المحددة"}
             </p>
-            <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-6">
+            <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-6 mb-12">
               {[
                 {
                   key: "cockroach",
@@ -553,6 +693,32 @@ export default function Home() {
                       ]
                     }
                   </h4>
+                </div>
+              ))}
+            </div>
+
+            {/* Services Section Images Gallery */}
+            <div className="grid grid-cols-3 md:grid-cols-7 gap-4">
+              {[
+                img0033,
+                img0034,
+                img0035,
+                img0036,
+                img0037,
+                img0038,
+                img0039,
+              ].map((img, index) => (
+                <div
+                  key={index}
+                  className="relative overflow-hidden rounded-xl shadow-lg hover:shadow-2xl transition-all transform hover:-translate-y-2"
+                >
+                  <Image
+                    src={img}
+                    alt={`Pest Control Service ${index + 1}`}
+                    width={150}
+                    height={150}
+                    className="w-full h-full object-cover"
+                  />
                 </div>
               ))}
             </div>
@@ -719,6 +885,32 @@ export default function Home() {
               </div>
             ))}
           </div>
+
+          {/* Pest Control Services List Section Images Gallery */}
+          <div className="grid grid-cols-3 md:grid-cols-7 gap-4 mt-12">
+            {[
+              img0040,
+              img0041,
+              img0042,
+              img0043,
+              img0044,
+              img0045,
+              img0046,
+            ].map((img, index) => (
+              <div
+                key={index}
+                className="relative overflow-hidden rounded-xl shadow-lg hover:shadow-2xl transition-all transform hover:-translate-y-2"
+              >
+                <Image
+                  src={img}
+                  alt={`Pest Control Service ${index + 1}`}
+                  width={150}
+                  height={150}
+                  className="w-full h-full object-cover"
+                />
+              </div>
+            ))}
+          </div>
         </div>
       </section>
 
@@ -789,6 +981,32 @@ export default function Home() {
                 <p className="text-gray-600 leading-relaxed">
                   {benefit.description}
                 </p>
+              </div>
+            ))}
+          </div>
+
+          {/* Company Benefits Section Images Gallery */}
+          <div className="grid grid-cols-3 md:grid-cols-7 gap-4 mt-12">
+            {[
+              img0047,
+              img0048,
+              img0049,
+              img0050,
+              img0051,
+              img0052,
+              img0053,
+            ].map((img, index) => (
+              <div
+                key={index}
+                className="relative overflow-hidden rounded-xl shadow-lg hover:shadow-2xl transition-all transform hover:-translate-y-2"
+              >
+                <Image
+                  src={img}
+                  alt={`Pest Control Service ${index + 1}`}
+                  width={150}
+                  height={150}
+                  className="w-full h-full object-cover"
+                />
               </div>
             ))}
           </div>
@@ -1019,6 +1237,32 @@ export default function Home() {
                 </div>
               </div>
             </div>
+
+            {/* Company Information Section Images Gallery */}
+            <div className="grid grid-cols-3 md:grid-cols-7 gap-4 mt-12">
+              {[
+                img0054,
+                img0055,
+                img0056,
+                img0057,
+                img0058,
+                img0060,
+                img0061,
+              ].map((img, index) => (
+                <div
+                  key={index}
+                  className="relative overflow-hidden rounded-xl shadow-lg hover:shadow-2xl transition-all transform hover:-translate-y-2"
+                >
+                  <Image
+                    src={img}
+                    alt={`Pest Control Service ${index + 1}`}
+                    width={150}
+                    height={150}
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+              ))}
+            </div>
           </div>
         </div>
       </section>
@@ -1122,6 +1366,32 @@ export default function Home() {
               </div>
             </Link>
           </div>
+
+          {/* Quick Links Section Images Gallery */}
+          <div className="grid grid-cols-3 md:grid-cols-7 gap-4 mt-12">
+            {[
+              img0062,
+              img0063,
+              img0003,
+              img0004,
+              img0005,
+              img0006,
+              img0007,
+            ].map((img, index) => (
+              <div
+                key={index}
+                className="relative overflow-hidden rounded-xl shadow-lg hover:shadow-2xl transition-all transform hover:-translate-y-2"
+              >
+                <Image
+                  src={img}
+                  alt={`Pest Control Service ${index + 1}`}
+                  width={150}
+                  height={150}
+                  className="w-full h-full object-cover"
+                />
+              </div>
+            ))}
+          </div>
         </div>
       </section>
 
@@ -1160,6 +1430,32 @@ export default function Home() {
               </div>
             ))}
           </div>
+
+          {/* Locations Section Images Gallery */}
+          <div className="grid grid-cols-3 md:grid-cols-7 gap-4 mt-12">
+            {[
+              img0008,
+              img0009,
+              img0010,
+              img0011,
+              img0012,
+              img0013,
+              img0014,
+            ].map((img, index) => (
+              <div
+                key={index}
+                className="relative overflow-hidden rounded-xl shadow-lg hover:shadow-2xl transition-all transform hover:-translate-y-2"
+              >
+                <Image
+                  src={img}
+                  alt={`Pest Control Service ${index + 1}`}
+                  width={150}
+                  height={150}
+                  className="w-full h-full object-cover"
+                />
+              </div>
+            ))}
+          </div>
         </div>
       </section>
 
@@ -1169,7 +1465,7 @@ export default function Home() {
           <h2 className="text-4xl font-bold text-[#2a347c] text-center mb-12">
             {t.articles.title}
           </h2>
-          <div className="max-w-4xl mx-auto">
+          <div className="max-w-4xl mx-auto mb-12">
             <Accordion
               items={t.articles.items.map((article, index) => ({
                 id: `article-${index}`,
@@ -1177,6 +1473,32 @@ export default function Home() {
                 content: article.content,
               }))}
             />
+          </div>
+
+          {/* Articles Section Images Gallery */}
+          <div className="grid grid-cols-3 md:grid-cols-7 gap-4">
+            {[
+              img0015,
+              img0016,
+              img0017,
+              img0018,
+              img0019,
+              img0020,
+              img0021,
+            ].map((img, index) => (
+              <div
+                key={index}
+                className="relative overflow-hidden rounded-xl shadow-lg hover:shadow-2xl transition-all transform hover:-translate-y-2"
+              >
+                <Image
+                  src={img}
+                  alt={`Pest Control Service ${index + 1}`}
+                  width={150}
+                  height={150}
+                  className="w-full h-full object-cover"
+                />
+              </div>
+            ))}
           </div>
         </div>
       </section>
@@ -1292,6 +1614,32 @@ export default function Home() {
               </div>
             </div>
           </div>
+
+          {/* Testimonials Section Images Gallery */}
+          <div className="grid grid-cols-3 md:grid-cols-7 gap-4 mt-12">
+            {[
+              img0022,
+              img0023,
+              img0024,
+              img0025,
+              img0026,
+              img0027,
+              img0028,
+            ].map((img, index) => (
+              <div
+                key={index}
+                className="relative overflow-hidden rounded-xl shadow-lg hover:shadow-2xl transition-all transform hover:-translate-y-2"
+              >
+                <Image
+                  src={img}
+                  alt={`Pest Control Service ${index + 1}`}
+                  width={150}
+                  height={150}
+                  className="w-full h-full object-cover"
+                />
+              </div>
+            ))}
+          </div>
         </div>
       </section>
 
@@ -1311,7 +1659,7 @@ export default function Home() {
                 : "استكشف قاعدة المعرفة الخاصة بنا للحصول على إجابات لأسئلتك"}
             </p>
           </div>
-          <div className="max-w-4xl mx-auto">
+          <div className="max-w-4xl mx-auto mb-12">
             <Accordion
               items={t.faq.items.map((faq, index) => ({
                 id: `faq-${index}`,
@@ -1319,6 +1667,32 @@ export default function Home() {
                 content: faq.content,
               }))}
             />
+          </div>
+
+          {/* FAQ Section Images Gallery */}
+          <div className="grid grid-cols-3 md:grid-cols-7 gap-4">
+            {[
+              img0029,
+              img0030,
+              img0031,
+              img0032,
+              img0033,
+              img0034,
+              img0035,
+            ].map((img, index) => (
+              <div
+                key={index}
+                className="relative overflow-hidden rounded-xl shadow-lg hover:shadow-2xl transition-all transform hover:-translate-y-2"
+              >
+                <Image
+                  src={img}
+                  alt={`Pest Control Service ${index + 1}`}
+                  width={150}
+                  height={150}
+                  className="w-full h-full object-cover"
+                />
+              </div>
+            ))}
           </div>
         </div>
       </section>
@@ -1380,6 +1754,32 @@ export default function Home() {
               <span>+971 54 546 0768</span>
             </a>
           </div>
+
+          {/* Call to Action Section Images Gallery */}
+          <div className="grid grid-cols-3 md:grid-cols-7 gap-4 mt-12">
+            {[
+              img0036,
+              img0037,
+              img0038,
+              img0039,
+              img0040,
+              img0041,
+              img0042,
+            ].map((img, index) => (
+              <div
+                key={index}
+                className="relative overflow-hidden rounded-xl shadow-lg hover:shadow-2xl transition-all transform hover:-translate-y-2 opacity-80 hover:opacity-100"
+              >
+                <Image
+                  src={img}
+                  alt={`Pest Control Service ${index + 1}`}
+                  width={150}
+                  height={150}
+                  className="w-full h-full object-cover"
+                />
+              </div>
+            ))}
+          </div>
         </div>
       </section>
 
@@ -1387,79 +1787,29 @@ export default function Home() {
       <section className="py-20 px-4 bg-gradient-to-br from-white via-[#e4d8a7]/10 to-white">
         <div className="container mx-auto max-w-[1250px]">
           {/* Gallery Images */}
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 mb-16">
-            <div className="relative overflow-hidden rounded-xl shadow-lg hover:shadow-2xl transition-all transform hover:-translate-y-2">
-              <Image
-                src="https://static.wixstatic.com/media/70abc5_68f156c792c34b2ea108c1201b86f780~mv2.jpg/v1/fill/w_181,h_225,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/2024-04-06.jpg"
-                alt="termite control"
-                width={181}
-                height={225}
-                className="w-full h-full object-cover"
-              />
-            </div>
-            <div className="relative overflow-hidden rounded-xl shadow-lg hover:shadow-2xl transition-all transform hover:-translate-y-2">
-              <Image
-                src="https://static.wixstatic.com/media/70abc5_964d7b16c3e9425abb57836b563cb6f5~mv2.jpg/v1/fill/w_162,h_202,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/2024-04-06%20(1).jpg"
-                alt="The worm"
-                width={162}
-                height={202}
-                className="w-full h-full object-cover"
-              />
-            </div>
-            <div className="relative overflow-hidden rounded-xl shadow-lg hover:shadow-2xl transition-all transform hover:-translate-y-2">
-              <Image
-                src="https://static.wixstatic.com/media/6b932b_d62c4e0839e649fcad2618e3356ca27a~mv2.jpg/v1/fill/w_181,h_247,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/2024-11-21_edited.jpg"
-                alt="2024-11-21_edited.jpg"
-                width={181}
-                height={247}
-                className="w-full h-full object-cover"
-              />
-            </div>
-            <div className="relative overflow-hidden rounded-xl shadow-lg hover:shadow-2xl transition-all transform hover:-translate-y-2">
-              <Image
-                src="https://static.wixstatic.com/media/70abc5_fa359f313460492cad3a49c5a8153c0a~mv2.jpg/v1/fill/w_162,h_202,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/2024-09-09.jpg"
-                alt="Pest control Dubai"
-                width={162}
-                height={202}
-                className="w-full h-full object-cover"
-              />
-            </div>
-            <div className="relative overflow-hidden rounded-xl shadow-lg hover:shadow-2xl transition-all transform hover:-translate-y-2">
-              <Image
-                src="https://static.wixstatic.com/media/70abc5_76b06d2eb748423599f14b71972bc1d9~mv2.jpg/v1/fill/w_181,h_157,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/2024-08-17.jpg"
-                alt="Pest control Dubai"
-                width={181}
-                height={157}
-                className="w-full h-full object-cover"
-              />
-            </div>
-            <div className="relative overflow-hidden rounded-xl shadow-lg hover:shadow-2xl transition-all transform hover:-translate-y-2">
-              <Image
-                src="https://static.wixstatic.com/media/70abc5_9ddd6e7b86804d1fbd2898a59e638c26~mv2.jpg/v1/fill/w_162,h_202,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/2024-08-09%20(3).jpg"
-                alt="Pest control"
-                width={162}
-                height={202}
-                className="w-full h-full object-cover"
-              />
-            </div>
-            <div className="relative overflow-hidden rounded-xl shadow-lg hover:shadow-2xl transition-all transform hover:-translate-y-2">
-              <Image
-                src="https://static.wixstatic.com/media/70abc5_d0c5cb92f48945aaaafc27129e7ac7e9~mv2.jpg/v1/fill/w_162,h_202,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/2024-11-17.jpg"
-                alt="Cockroach control in Ajman"
-                width={162}
-                height={202}
-                className="w-full h-full object-cover"
-              />
-            </div>
-            <div className="relative overflow-hidden rounded-xl shadow-lg hover:shadow-2xl transition-all transform hover:-translate-y-2">
-              <Image
-                src="https://static.wixstatic.com/media/70abc5_41884a0ded3d456b88a7d3d59b3a6223~mv2.jpg/v1/fill/w_181,h_225,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/2024-02-05_edited.jpg"
-                alt="pestcontrol"
-                width={181}
-                height={225}
-                className="w-full h-full object-cover"
-              />
-            </div>
+          <div className="grid grid-cols-3 md:grid-cols-7 gap-4 mb-16">
+            {[
+              img0003,
+              img0004,
+              img0005,
+              img0006,
+              img0007,
+              img0008,
+              img0009,
+            ].map((img, index) => (
+              <div
+                key={index}
+                className="relative overflow-hidden rounded-xl shadow-lg hover:shadow-2xl transition-all transform hover:-translate-y-2"
+              >
+                <Image
+                  src={img}
+                  alt={`Pest control service ${index + 1}`}
+                  width={181}
+                  height={225}
+                  className="w-full h-full object-cover"
+                />
+              </div>
+            ))}
           </div>
 
           {/* Main Article Content */}

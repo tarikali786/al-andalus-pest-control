@@ -5,6 +5,7 @@ export const translations = {
       about: 'About',
       companyInfo: 'Company Information',
       services: 'Our Services',
+      gallery: 'Gallery',
       booking: 'Book Now',
     },
     hero: {
@@ -288,6 +289,7 @@ export const translations = {
       about: 'من نحن',
       companyInfo: 'معلومات عن الشركة',
       services: 'منشوراتنا و خدماتنا',
+      gallery: 'المعرض',
       booking: 'للحجز والاستعلام',
     },
     hero: {

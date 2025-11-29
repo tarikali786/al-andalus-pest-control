@@ -8,9 +8,6 @@ import LanguageToggle from "../components/LanguageToggle";
 import Navigation from "../components/Navigation";
 import Footer from "../components/Footer";
 
-const logoImage =
-  "https://static.wixstatic.com/media/70abc5_9cf6571b6fda41539f2e806e793213e0~mv2.jpeg/v1/fill/w_264,h_216,al_c,lg_1,q_80,enc_avif,quality_auto/70abc5_9cf6571b6fda41539f2e806e793213e0~mv2.jpeg";
-
 export default function Services() {
   const { language } = useLanguage();
   const t = translations[language];

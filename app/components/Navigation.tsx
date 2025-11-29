@@ -17,7 +17,7 @@ export default function Navigation() {
 
   return (
     <nav className="sticky top-0 z-40 bg-white shadow-md">
-      <div className="container mx-auto px-4 py-4">
+      <div className=" max-w-7xl mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           <Link href="/" className="flex items-center gap-4">
             <Image
@@ -48,6 +48,12 @@ export default function Navigation() {
               className="text-[#2a347c] hover:text-[#1a2552] font-medium transition-colors"
             >
               {t.nav.services}
+            </Link>
+            <Link
+              href="/gallery"
+              className="text-[#2a347c] hover:text-[#1a2552] font-medium transition-colors"
+            >
+              {t.nav.gallery}
             </Link>
             <Link
               href="/contact"
@@ -117,6 +123,13 @@ export default function Navigation() {
               className="block text-[#2a347c] hover:text-[#1a2552] font-medium transition-colors py-2"
             >
               {t.nav.services}
+            </Link>
+            <Link
+              href="/gallery"
+              onClick={() => setMobileMenuOpen(false)}
+              className="block text-[#2a347c] hover:text-[#1a2552] font-medium transition-colors py-2"
+            >
+              {t.nav.gallery}
             </Link>
             <Link
               href="/contact"
