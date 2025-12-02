@@ -23,7 +23,7 @@ export default function Contact() {
           <p className="text-xl max-w-3xl mx-auto opacity-90">
             {language === "en"
               ? "Get in touch with us for all your pest control needs"
-              : "تواصل معنا لجميع احتياجاتك في مكافحة الحشرات"}
+              : "تواصل معنا لجميع احتياجاتك في مكافحة حشرات"}
           </p>
         </div>
       </section>

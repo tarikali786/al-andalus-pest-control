@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Al Andalus Pest Control | شركة الاندلس لمكافحة الحشرات",
+  title: "Al Andalus Pest Control | شركة الاندلس لمكافحة حشرات",
   description: "Professional pest control services in UAE. Effective solutions for cockroaches, rodents, termites, and more in Dubai, Abu Dhabi, Sharjah, Ajman, Umm Al Quwain, and Al Ain.",
 };
 
