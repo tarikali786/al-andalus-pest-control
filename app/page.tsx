@@ -98,7 +98,7 @@ export default function Home() {
               <div className="inline-block px-4 py-2 bg-white/80 backdrop-blur-sm rounded-full text-[#2a347c] font-semibold text-sm mb-4">
                 {language === "en"
                   ? "✨ Trusted Pest Control Experts"
-                  : "✨ خبراء مكافحة حشرات الموثوقون"}
+                  : "✨ خبراء مكافحة الحشرات الموثوقون"}
               </div>
               <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-[#2a347c] leading-tight">
                 {t.hero.subtitle}
@@ -106,7 +106,7 @@ export default function Home() {
               <p className="text-xl text-gray-800 leading-relaxed">
                 {language === "en"
                   ? "Al Andalus Company is the ideal choice for pest control throughout the UAE, offering effective and safe solutions to maintain a healthy, insect-free environment."
-                  : "شركة الأندلس هي الخيار الأمثل لمكافحة حشرات في جميع أنحاء الإمارات، حيث تقدم حلولاً فعالة وآمنة للحفاظ على بيئة صحية خالية من حشرات."}
+                  : "شركة الأندلس هي الخيار الأمثل لمكافحة الحشرات في جميع أنحاء الإمارات، حيث تقدم حلولاً فعالة وآمنة للحفاظ على بيئة صحية خالية من الحشرات."}
               </p>
 
               {/* Key Features */}
@@ -309,7 +309,7 @@ export default function Home() {
             <div className="inline-block px-4 py-2 bg-[#2a347c] rounded-full text-white font-semibold text-sm mb-4">
               {language === "en"
                 ? "Al Andalus Pest Control"
-                : "شركة الأندلس لمكافحة حشرات"}
+                : "شركة الأندلس لمكافحة الحشرات"}
             </div>
             <h2 className="text-4xl md:text-5xl font-bold text-[#2a347c] mb-6">
               {t.alAndalusIntro.title}
@@ -566,7 +566,7 @@ export default function Home() {
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
               {language === "en"
                 ? "Comprehensive pest control solutions for homes and businesses across the UAE"
-                : "حلول شاملة لمكافحة حشرات للمنازل والشركات في جميع أنحاء الإمارات"}
+                : "حلول شاملة لمكافحة الحشرات للمنازل والشركات في جميع أنحاء الإمارات"}
             </p>
           </div>
 
@@ -647,7 +647,7 @@ export default function Home() {
             <p className="text-center text-gray-600 mb-12 max-w-2xl mx-auto">
               {language === "en"
                 ? "Targeted solutions for specific pest problems"
-                : "حلول مستهدفة لمشاكل حشرات المحددة"}
+                : "حلول مستهدفة لمشاكل الحشرات المحددة"}
             </p>
             <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-6 mb-12">
               {[
@@ -736,47 +736,47 @@ export default function Home() {
             <h2 className="text-4xl md:text-5xl font-bold text-[#2a347c] mb-4">
               {language === "en"
                 ? "Comprehensive Pest Control Services"
-                : "خدمات مكافحة حشرات الشاملة"}
+                : "خدمات مكافحة الحشرات الشاملة"}
             </h2>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
               {language === "en"
                 ? "Professional pest control solutions across all UAE emirates"
-                : "حلول مكافحة حشرات المهنية في جميع إمارات الإمارات"}
+                : "حلول مكافحة الحشرات المهنية في جميع إمارات الإمارات"}
             </p>
           </div>
           <div className="grid md:grid-cols-3 gap-6">
             {[
               {
                 en: "Pest Control Company in Abu Dhabi",
-                ar: "شركة مكافحة حشرات في أبوظبي",
+                ar: "شركة مكافحة الحشرات في أبوظبي",
               },
               {
                 en: "Pest Control in Dubai",
-                ar: "مكافحة حشرات في دبي",
+                ar: "مكافحة الحشرات في دبي",
               },
               {
                 en: "Pest Control Services in Sharjah",
-                ar: "خدمات مكافحة حشرات في الشارقة",
+                ar: "خدمات مكافحة الحشرات في الشارقة",
               },
               {
                 en: "Pest Spraying Company in Ajman",
-                ar: "شركة رش حشرات في عجمان",
+                ar: "شركة رش الحشرات في عجمان",
               },
               {
                 en: "Pest Control in Ras Al Khaimah",
-                ar: "مكافحة حشرات في رأس الخيمة",
+                ar: "مكافحة الحشرات في رأس الخيمة",
               },
               {
                 en: "Pest Control in Fujairah",
-                ar: "مكافحة حشرات في الفجيرة",
+                ar: "مكافحة الحشرات في الفجيرة",
               },
               {
                 en: "Pest Spraying in Umm Al Quwain",
-                ar: "رش حشرات في أم القيوين",
+                ar: "رش الحشرات في أم القيوين",
               },
               {
                 en: "Commercial Pest Control in Abu Dhabi",
-                ar: "مكافحة حشرات التجارية في أبوظبي",
+                ar: "مكافحة الحشرات التجارية في أبوظبي",
               },
               {
                 en: "Ant Control in Dubai",
@@ -796,15 +796,15 @@ export default function Home() {
               },
               {
                 en: "Pest Control in Fujairah",
-                ar: "مكافحة حشرات في الفجيرة",
+                ar: "مكافحة الحشرات في الفجيرة",
               },
               {
                 en: "Pest Control Company in Umm Al Quwain",
-                ar: "شركة مكافحة حشرات في أم القيوين",
+                ar: "شركة مكافحة الحشرات في أم القيوين",
               },
               {
                 en: "Home Pest Control Services in Abu Dhabi",
-                ar: "خدمات مكافحة حشرات المنزلية في أبوظبي",
+                ar: "خدمات مكافحة الحشرات المنزلية في أبوظبي",
               },
               {
                 en: "Rodent Control in Dubai",
@@ -816,35 +816,35 @@ export default function Home() {
               },
               {
                 en: "Pest Control in Villas in Abu Dhabi",
-                ar: "مكافحة حشرات في الفلل في أبوظبي",
+                ar: "مكافحة الحشرات في الفلل في أبوظبي",
               },
               {
                 en: "Pest Control Services in Offices in Dubai",
-                ar: "خدمات مكافحة حشرات في المكاتب في دبي",
+                ar: "خدمات مكافحة الحشرات في المكاتب في دبي",
               },
               {
                 en: "Garden Pest Spraying in Sharjah",
-                ar: "رش حشرات الحدائق في الشارقة",
+                ar: "رش الحشرات الحدائق في الشارقة",
               },
               {
                 en: "Insect Treatment in Ajman",
-                ar: "معالجة حشرات في عجمان",
+                ar: "معالجة الحشرات في عجمان",
               },
               {
                 en: "Poisonous Insect Control in Ras Al Khaimah",
-                ar: "مكافحة حشرات السامة في رأس الخيمة",
+                ar: "مكافحة الحشرات السامة في رأس الخيمة",
               },
               {
                 en: "Pest Control Company Reviews in Fujairah",
-                ar: "مراجعات شركات مكافحة حشرات في الفجيرة",
+                ar: "مراجعات شركات مكافحة الحشرات في الفجيرة",
               },
               {
                 en: "Pest Control Tips in Umm Al Quwain",
-                ar: "نصائح مكافحة حشرات في أم القيوين",
+                ar: "نصائح مكافحة الحشرات في أم القيوين",
               },
               {
                 en: "Pest Control in Residential Areas in Abu Dhabi",
-                ar: "مكافحة حشرات في المناطق السكنية في أبوظبي",
+                ar: "مكافحة الحشرات في المناطق السكنية في أبوظبي",
               },
               {
                 en: "Specialized spraying services in Dubai",
@@ -852,19 +852,19 @@ export default function Home() {
               },
               {
                 en: "Immediate pest control solutions in Sharjah",
-                ar: "حلول مكافحة حشرات الفورية في الشارقة",
+                ar: "حلول مكافحة الحشرات الفورية في الشارقة",
               },
               {
                 en: "Natural pest control in Ajman",
-                ar: "مكافحة حشرات الطبيعية في عجمان",
+                ar: "مكافحة الحشرات الطبيعية في عجمان",
               },
               {
                 en: "Pest control in restaurants in Ras Al Khaimah",
-                ar: "مكافحة حشرات في المطاعم في رأس الخيمة",
+                ar: "مكافحة الحشرات في المطاعم في رأس الخيمة",
               },
               {
                 en: "Safe insect spraying for children in Fujairah",
-                ar: "رش حشرات الآمن للأطفال في الفجيرة",
+                ar: "رش الحشرات الآمن للأطفال في الفجيرة",
               },
             ].map((service, index) => (
               <div
@@ -924,7 +924,7 @@ export default function Home() {
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
               {language === "en"
                 ? "We provide safe, effective, and reliable pest control solutions"
-                : "نوفر حلول مكافحة حشرات آمنة وفعالة وموثوقة"}
+                : "نوفر حلول مكافحة الحشرات آمنة وفعالة وموثوقة"}
             </p>
           </div>
           <div className="grid md:grid-cols-3 gap-8">
@@ -950,7 +950,7 @@ export default function Home() {
                 description:
                   language === "en"
                     ? "Maintaining an indoor environment free of pests for your peace of mind"
-                    : "الحفاظ على بيئة داخلية خالية من حشرات لراحة بالك",
+                    : "الحفاظ على بيئة داخلية خالية من الحشرات لراحة بالك",
                 color: "from-blue-500 to-cyan-600",
               },
               {
@@ -962,7 +962,7 @@ export default function Home() {
                 description:
                   language === "en"
                     ? "Quick response to pest problems with 24/7 emergency services"
-                    : "استجابة سريعة لمشاكل حشرات مع خدمات الطوارئ على مدار الساعة",
+                    : "استجابة سريعة لمشاكل الحشرات مع خدمات الطوارئ على مدار الساعة",
                 color: "from-orange-500 to-red-600",
               },
             ].map((benefit, index) => (
@@ -1026,7 +1026,7 @@ export default function Home() {
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
               {language === "en"
                 ? "Comprehensive information about pest control companies in the UAE"
-                : "معلومات شاملة عن شركات مكافحة حشرات في الإمارات"}
+                : "معلومات شاملة عن شركات مكافحة الحشرات في الإمارات"}
             </p>
           </div>
 
@@ -1316,7 +1316,7 @@ export default function Home() {
               <p className="text-gray-700 leading-relaxed">
                 {language === "en"
                   ? "Explore our comprehensive pest control services"
-                  : "استكشف خدمات مكافحة حشرات الشاملة لدينا"}
+                  : "استكشف خدمات مكافحة الحشرات الشاملة لدينا"}
               </p>
               <div className="mt-6 text-[#2a347c] font-semibold group-hover:translate-x-2 transition-transform inline-flex items-center gap-2">
                 {language === "en" ? "View Services" : "عرض الخدمات"}
@@ -1405,7 +1405,7 @@ export default function Home() {
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
               {language === "en"
                 ? "Serving all UAE emirates with professional pest control services"
-                : "نخدم جميع إمارات الإمارات بخدمات مكافحة حشرات المهنية"}
+                : "نخدم جميع إمارات الإمارات بخدمات مكافحة الحشرات المهنية"}
             </p>
           </div>
           <div className="grid md:grid-cols-3 lg:grid-cols-6 gap-6">
@@ -1535,7 +1535,7 @@ export default function Home() {
               <p className="text-lg text-gray-700 mb-6 italic leading-relaxed text-center">
                 {language === "en"
                   ? '"Excellent service! The team was professional and thorough. Our pest problem was completely resolved."'
-                  : '"خدمة ممتازة! كان الفريق محترفًا وشاملًا. تم حل مشكلة حشرات لدينا بالكامل."'}
+                  : '"خدمة ممتازة! كان الفريق محترفًا وشاملًا. تم حل مشكلة الحشرات لدينا بالكامل."'}
               </p>
               <div className="flex items-center justify-center gap-4">
                 <div className="w-12 h-12 rounded-full bg-gradient-to-br from-[#2a347c] to-[#1a2552] flex items-center justify-center text-white font-bold">
@@ -1707,7 +1707,7 @@ export default function Home() {
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
             {language === "en"
               ? "Ready to Get Rid of Pests?"
-              : "هل أنت مستعد للتخلص من حشرات؟"}
+              : "هل أنت مستعد للتخلص من الحشرات؟"}
           </h2>
           <p className="text-xl mb-8 text-white/90 max-w-2xl mx-auto">
             {language === "en"
@@ -1822,7 +1822,7 @@ export default function Home() {
             >
               {language === "en"
                 ? "Al Andalus Pest Control Company in the UAE: Effective and Sustainable Solutions"
-                : "شركة الأندلس لمكافحة حشرات في الإمارات: حلول فعالة ومستدامة"}
+                : "شركة الأندلس لمكافحة الحشرات في الإمارات: حلول فعالة ومستدامة"}
             </h2>
             <p
               className={`text-lg text-gray-700 leading-relaxed mb-6 ${
@@ -1832,7 +1832,7 @@ export default function Home() {
             >
               {language === "en"
                 ? "Pest control in the UAE is a vital sector requiring special attention. With the diversity of insects and rodents in the Emirates, finding effective and sustainable solutions for their control becomes essential. This article will review the most important methods for pest control in each emirate."
-                : "مكافحة حشرات في الإمارات هي قطاع حيوي يتطلب اهتمامًا خاصًا. مع تنوع حشرات والقوارض في الإمارات، يصبح العثور على حلول فعالة ومستدامة لمكافحتها أمرًا ضروريًا. ستراجع هذه المقالة أهم طرق مكافحة حشرات في كل إمارة."}
+                : "مكافحة الحشرات في الإمارات هي قطاع حيوي يتطلب اهتمامًا خاصًا. مع تنوع الحشرات والقوارض في الإمارات، يصبح العثور على حلول فعالة ومستدامة لمكافحتها أمرًا ضروريًا. ستراجع هذه المقالة أهم طرق مكافحة الحشرات في كل إمارة."}
             </p>
 
             {/* Pest Control by Emirate */}
@@ -1847,7 +1847,7 @@ export default function Home() {
                 >
                   {language === "en"
                     ? "Pest control in Abu Dhabi:"
-                    : "مكافحة حشرات في أبوظبي:"}
+                    : "مكافحة الحشرات في أبوظبي:"}
                 </h3>
                 <p
                   className={`text-gray-700 mb-4 ${
@@ -1857,7 +1857,7 @@ export default function Home() {
                 >
                   {language === "en"
                     ? "Abu Dhabi, the capital of the UAE, suffers from significant insect problems. Therefore, it's important to find specialized pest control services in Abu Dhabi. You can benefit from:"
-                    : "أبوظبي، عاصمة الإمارات، تعاني من مشاكل حشرات كبيرة. لذلك، من المهم العثور على خدمات مكافحة حشرات متخصصة في أبوظبي. يمكنك الاستفادة من:"}
+                    : "أبوظبي، عاصمة الإمارات، تعاني من مشاكل الحشرات كبيرة. لذلك، من المهم العثور على خدمات مكافحة الحشرات متخصصة في أبوظبي. يمكنك الاستفادة من:"}
                 </p>
                 <ul
                   className={`list-disc list-inside space-y-2 text-gray-700 ${
@@ -1893,7 +1893,7 @@ export default function Home() {
                 >
                   {language === "en"
                     ? "Pest control in Dubai:"
-                    : "مكافحة حشرات في دبي:"}
+                    : "مكافحة الحشرات في دبي:"}
                 </h3>
                 <p
                   className={`text-gray-700 mb-4 ${
@@ -1903,7 +1903,7 @@ export default function Home() {
                 >
                   {language === "en"
                     ? "Dubai, the city of wonders, needs effective pest control services. You can benefit from:"
-                    : "دبي، مدينة العجائب، تحتاج إلى خدمات مكافحة حشرات فعالة. يمكنك الاستفادة من:"}
+                    : "دبي، مدينة العجائب، تحتاج إلى خدمات مكافحة الحشرات فعالة. يمكنك الاستفادة من:"}
                 </p>
                 <ul
                   className={`list-disc list-inside space-y-2 text-gray-700 ${
@@ -1914,7 +1914,7 @@ export default function Home() {
                   <li>
                     {language === "en"
                       ? "Pest control in homes in Dubai"
-                      : "مكافحة حشرات في المنازل في دبي"}
+                      : "مكافحة الحشرات في المنازل في دبي"}
                   </li>
                   <li>
                     {language === "en"
@@ -1939,7 +1939,7 @@ export default function Home() {
                 >
                   {language === "en"
                     ? "Pest control in Sharjah:"
-                    : "مكافحة حشرات في الشارقة:"}
+                    : "مكافحة الحشرات في الشارقة:"}
                 </h3>
                 <p
                   className={`text-gray-700 mb-4 ${
@@ -1949,7 +1949,7 @@ export default function Home() {
                 >
                   {language === "en"
                     ? "Sharjah, the emirate of culture, needs specialized pest control services. You can benefit from:"
-                    : "الشارقة، إمارة الثقافة، تحتاج إلى خدمات مكافحة حشرات متخصصة. يمكنك الاستفادة من:"}
+                    : "الشارقة، إمارة الثقافة، تحتاج إلى خدمات مكافحة الحشرات متخصصة. يمكنك الاستفادة من:"}
                 </p>
                 <ul
                   className={`list-disc list-inside space-y-2 text-gray-700 ${
@@ -1985,7 +1985,7 @@ export default function Home() {
                 >
                   {language === "en"
                     ? "Pest control in Ajman:"
-                    : "مكافحة حشرات في عجمان:"}
+                    : "مكافحة الحشرات في عجمان:"}
                 </h3>
                 <p
                   className={`text-gray-700 mb-4 ${
@@ -1995,7 +1995,7 @@ export default function Home() {
                 >
                   {language === "en"
                     ? "Ajman, the emirate of friendship, needs effective pest control services. You can benefit from:"
-                    : "عجمان، إمارة الصداقة، تحتاج إلى خدمات مكافحة حشرات فعالة. يمكنك الاستفادة من:"}
+                    : "عجمان، إمارة الصداقة، تحتاج إلى خدمات مكافحة الحشرات فعالة. يمكنك الاستفادة من:"}
                 </p>
                 <ul
                   className={`list-disc list-inside space-y-2 text-gray-700 ${
@@ -2006,7 +2006,7 @@ export default function Home() {
                   <li>
                     {language === "en"
                       ? "Pest control in homes in Ajman"
-                      : "مكافحة حشرات في المنازل في عجمان"}
+                      : "مكافحة الحشرات في المنازل في عجمان"}
                   </li>
                   <li>
                     {language === "en"
@@ -2031,7 +2031,7 @@ export default function Home() {
                 >
                   {language === "en"
                     ? "Pest control in Ras Al Khaimah:"
-                    : "مكافحة حشرات في رأس الخيمة:"}
+                    : "مكافحة الحشرات في رأس الخيمة:"}
                 </h3>
                 <p
                   className={`text-gray-700 mb-4 ${
@@ -2041,7 +2041,7 @@ export default function Home() {
                 >
                   {language === "en"
                     ? "Ras Al Khaimah, the emirate of nature, needs specialized pest control services. You can benefit from:"
-                    : "رأس الخيمة، إمارة الطبيعة، تحتاج إلى خدمات مكافحة حشرات متخصصة. يمكنك الاستفادة من:"}
+                    : "رأس الخيمة، إمارة الطبيعة، تحتاج إلى خدمات مكافحة الحشرات متخصصة. يمكنك الاستفادة من:"}
                 </p>
                 <ul
                   className={`list-disc list-inside space-y-2 text-gray-700 ${
@@ -2077,7 +2077,7 @@ export default function Home() {
                 >
                   {language === "en"
                     ? "Pest control in Fujairah:"
-                    : "مكافحة حشرات في الفجيرة:"}
+                    : "مكافحة الحشرات في الفجيرة:"}
                 </h3>
                 <p
                   className={`text-gray-700 mb-4 ${
@@ -2087,7 +2087,7 @@ export default function Home() {
                 >
                   {language === "en"
                     ? "Fujairah, the emirate of nature, needs effective pest control services. You can benefit from:"
-                    : "الفجيرة، إمارة الطبيعة، تحتاج إلى خدمات مكافحة حشرات فعالة. يمكنك الاستفادة من:"}
+                    : "الفجيرة، إمارة الطبيعة، تحتاج إلى خدمات مكافحة الحشرات فعالة. يمكنك الاستفادة من:"}
                 </p>
                 <ul
                   className={`list-disc list-inside space-y-2 text-gray-700 ${
@@ -2098,7 +2098,7 @@ export default function Home() {
                   <li>
                     {language === "en"
                       ? "Pest control in homes in Fujairah"
-                      : "مكافحة حشرات في المنازل في الفجيرة"}
+                      : "مكافحة الحشرات في المنازل في الفجيرة"}
                   </li>
                   <li>
                     {language === "en"
@@ -2123,7 +2123,7 @@ export default function Home() {
                 >
                   {language === "en"
                     ? "Pest control in Umm Al Quwain:"
-                    : "مكافحة حشرات في أم القيوين:"}
+                    : "مكافحة الحشرات في أم القيوين:"}
                 </h3>
                 <p
                   className={`text-gray-700 mb-4 ${
@@ -2133,7 +2133,7 @@ export default function Home() {
                 >
                   {language === "en"
                     ? "Umm Al Quwain, the Emirate of Peace, needs specialized pest control services. You can benefit from:"
-                    : "أم القيوين، إمارة السلام، تحتاج إلى خدمات مكافحة حشرات متخصصة. يمكنك الاستفادة من:"}
+                    : "أم القيوين، إمارة السلام، تحتاج إلى خدمات مكافحة الحشرات متخصصة. يمكنك الاستفادة من:"}
                 </p>
                 <ul
                   className={`list-disc list-inside space-y-2 text-gray-700 ${
@@ -2170,7 +2170,7 @@ export default function Home() {
               >
                 {language === "en"
                   ? "Tips for pest control:"
-                  : "نصائح لمكافحة حشرات:"}
+                  : "نصائح لمكافحة الحشرات:"}
               </h3>
               <ol
                 className={`list-decimal list-inside space-y-3 text-gray-800 ${
@@ -2201,7 +2201,7 @@ export default function Home() {
                 <li>
                   {language === "en"
                     ? "Use insect nets."
-                    : "استخدم شبكات حشرات."}
+                    : "استخدم شبكات الحشرات."}
                 </li>
                 <li>
                   {language === "en"
@@ -2232,7 +2232,7 @@ export default function Home() {
               >
                 {language === "en"
                   ? "Pest control in the UAE requires special attention. It's important to seek out specialized pest control services in each emirate. By following the tips and services mentioned above, you can keep your home and office insect-free."
-                  : "مكافحة حشرات في الإمارات تتطلب اهتمامًا خاصًا. من المهم البحث عن خدمات مكافحة حشرات متخصصة في كل إمارة. باتباع النصائح والخدمات المذكورة أعلاه، يمكنك الحفاظ على منزلك ومكتبك خاليين من حشرات."}
+                  : "مكافحة الحشرات في الإمارات تتطلب اهتمامًا خاصًا. من المهم البحث عن خدمات مكافحة الحشرات متخصصة في كل إمارة. باتباع النصائح والخدمات المذكورة أعلاه، يمكنك الحفاظ على منزلك ومكتبك خاليين من الحشرات."}
               </p>
             </div>
 

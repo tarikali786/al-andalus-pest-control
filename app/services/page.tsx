@@ -34,7 +34,7 @@ export default function Services() {
           <p className="text-xl text-gray-800 max-w-3xl mx-auto leading-relaxed">
             {language === "en"
               ? "Comprehensive pest control solutions for homes and businesses across the UAE"
-              : "حلول شاملة لمكافحة حشرات للمنازل والشركات في جميع أنحاء الإمارات"}
+              : "حلول شاملة لمكافحة الحشرات للمنازل والشركات في جميع أنحاء الإمارات"}
           </p>
         </div>
       </section>
@@ -52,7 +52,7 @@ export default function Services() {
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
               {language === "en"
                 ? "Comprehensive pest control solutions for homes and businesses across the UAE"
-                : "حلول شاملة لمكافحة حشرات للمنازل والشركات في جميع أنحاء الإمارات"}
+                : "حلول شاملة لمكافحة الحشرات للمنازل والشركات في جميع أنحاء الإمارات"}
             </p>
           </div>
 
@@ -136,7 +136,7 @@ export default function Services() {
             <p className="text-center text-gray-600 mb-12 max-w-2xl mx-auto">
               {language === "en"
                 ? "Targeted solutions for specific pest problems"
-                : "حلول مستهدفة لمشاكل حشرات المحددة"}
+                : "حلول مستهدفة لمشاكل الحشرات المحددة"}
             </p>
             <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-6">
               {[
@@ -199,7 +199,7 @@ export default function Services() {
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
               {language === "en"
                 ? "Serving all UAE emirates with professional pest control services"
-                : "نخدم جميع إمارات الإمارات بخدمات مكافحة حشرات المهنية"}
+                : "نخدم جميع إمارات الإمارات بخدمات مكافحة الحشرات المهنية"}
             </p>
           </div>
           <div className="grid md:grid-cols-3 lg:grid-cols-6 gap-6">

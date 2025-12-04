@@ -34,7 +34,7 @@ export default function Gallery() {
           <p className="text-xl text-gray-800 max-w-3xl mx-auto leading-relaxed">
             {language === "en"
               ? "Explore our work and see the quality of our pest control services"
-              : "استكشف أعمالنا وشاهد جودة خدمات مكافحة حشرات لدينا"}
+              : "استكشف أعمالنا وشاهد جودة خدمات مكافحة الحشرات لدينا"}
           </p>
         </div>
       </section>
